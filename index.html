@@ -564,7 +564,6 @@
       ][(d.getDate() + (d.getMonth() + 1) * 31 + kyuseiNum) % 5]; // 日付に基づく一貫した開運アドバイス
       
       dailyTab.innerHTML = `
-        <div class="fortune-block">
           <div class="fortune-header">
             <div>
               <div class="fortune-date">${d.getFullYear()}年${d.getMonth() + 1}月${d.getDate()}日（${dayOfWeek}）</div>
@@ -573,7 +572,7 @@
             <div class="fortune-score">運勢スコア ${score}点</div>
           </div>
           
-          <div class="fortune-content">
+        <div class="fortune-content">
             <p style="margin: 0; font-size: 1.05em;">${f.fortune}</p>
             
             <div class="fortune-details">
