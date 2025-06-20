@@ -1,0 +1,3 @@
+[submodule "chi3jp/works"]
+	path = chi3jp/works
+	url = git@github.com:chi3jp/works.git
